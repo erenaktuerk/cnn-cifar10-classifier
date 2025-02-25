@@ -7,12 +7,19 @@ This project tackles the classic CIFAR-10 image classification problem, implemen
 Our solution stands out due to its problem-solving orientation, handling common challenges like overfitting, hyperparameter selection, and feature interpretation. With automated model performance analysis and advanced visualization techniques like Feature Map Visualization and Grad-CAM, it offers a transparent and interpretable approach to deep learning.
 
 🚀 Key Features
+
 	•	State-of-the-Art CNN Architecture: A multi-layered convolutional network designed for optimal feature extraction and classification.
+ 
 	•	Hyperparameter Optimization: Uses RandomizedSearchCV to fine-tune filters, dropout rates, dense units, and learning rates.
+ 
 	•	Automated Model Analysis: Evaluates performance with metrics like accuracy, precision, recall, F1-score, and confusion matrix.
+ 
 	•	Advanced Visualizations: Implements Feature Map Visualizations and Grad-CAM to interpret model decisions and highlight important features.
+ 
 	•	Robust Data Pipeline: Clean and efficient data preprocessing with separate train and test datasets.
+ 
 	•	Seamless Execution Workflow: Centralized execution from main.py, ensuring a clean and modular codebase.
+ 
 	•	Error-Free Execution: Handles deprecation warnings and ensures a smooth training and evaluation process.
 
 🗂️ Project Structure
