@@ -1,0 +1,33 @@
+# Virtual environment
+venv/
+*.pyc
+*.pyo
+*.pyd
+_pycache_/
+
+# Jupyter Notebook checkpoints
+.notebooks_checkpoints/
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Environment and dependency files
+.env
+*.env
+
+# Data files
+data/cifar10/train/
+data/cifar10/test/
+results/
+
+# Logs and debug output
+*.log
+*.out
+
+# Python packaging
+*.egg-info/
+dist/
+build/
