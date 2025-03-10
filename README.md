@@ -8,11 +8,17 @@ Our solution stands out due to its problem-solving orientation, handling common 
 
 **Key Features**
 	•	State-of-the-Art CNN Architecture: A multi-layered convolutional network designed for optimal feature extraction and classification.
+ 
 	•	Hyperparameter Optimization: Uses RandomizedSearchCV to fine-tune filters, dropout rates, dense units, and learning rates.
+ 
 	•	Automated Model Analysis: Evaluates performance with metrics like accuracy, precision, recall, F1-score, and confusion matrix.
+ 
 	•	Advanced Visualizations: Implements Feature Map Visualizations and Grad-CAM to interpret model decisions and highlight important features.
+ 
 	•	Robust Data Pipeline: Clean and efficient data preprocessing with separate train and test datasets.
+ 
 	•	Seamless Execution Workflow: Centralized execution from main.py, ensuring a clean and modular codebase.
+ 
 	•	Error-Free Execution: Handles deprecation warnings and ensures a smooth training and evaluation process.
 	•	Dockerized Application: The project has been containerized using Docker for easier deployment and reproducibility.
 
@@ -123,3 +129,5 @@ Acknowledgments
 	•	TensorFlow for the deep learning framework.
 	•	Scikit-learn for hyperparameter tuning and performance metrics.
 	•	Matplotlib/Seaborn for clear and insightful visualizations.
+
+Let me know if you want to add or refine anything further!
