@@ -1,0 +1,25 @@
+# Python-Cache-Dateien
+_pycache_/
+*.py[cod]
+*.pyo
+
+# Virtuelle Umgebungen
+venv/
+.env
+*.env
+
+# Docker- und Editor-Dateien
+Dockerfile~
+.dockerignore
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# IDE- und Betriebssystem-Dateien
+*.vscode/
+*.idea/
+*.DS_Store
+Thumbs.db
+
+# Sonstiges
+*.log

@@ -21,7 +21,7 @@ def tune_model(x_train, y_train, x_val, y_val, max_trials=5, executions_per_tria
         executions_per_trial: Number of models to build and fit for each trial (to account for randomness).
         epochs: Number of epochs to train in each trial.
     
-    Returns:
+    returns:
         best_hps: The best hyperparameters found.
         tuner: The Keras Tuner object (contains detailed tuning results).
     """

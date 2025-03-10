@@ -17,7 +17,7 @@ import tensorflow as tf
 from tensorflow.keras.models import Model
 
 # ---------------------------------------
-# 1) Plot Training History
+# 1. Plot Training History
 # ---------------------------------------
 def plot_history(history):
     """
@@ -55,7 +55,7 @@ def plot_history(history):
     print(f"Plots saved in directory: {results_dir}")
 
 # ---------------------------------------
-# 2) Extended Evaluation
+# 2. Extended Evaluation
 # ---------------------------------------
 def evaluate_model(model, x_test, y_test):
     """
@@ -90,7 +90,7 @@ def evaluate_model(model, x_test, y_test):
     print(class_report)
 
 # ---------------------------------------
-# 3) Feature Map Visualization
+# 3. Feature Map Visualization
 # ---------------------------------------
 def visualize_feature_maps(model, x_input, layer_index=0):
     """
@@ -137,7 +137,7 @@ def visualize_feature_maps(model, x_input, layer_index=0):
     plt.show()
 
 # ---------------------------------------
-# 4) Grad-CAM
+# 4. Grad-CAM
 # ---------------------------------------
 def grad_cam(model, image, layer_name, class_index=None):
     """

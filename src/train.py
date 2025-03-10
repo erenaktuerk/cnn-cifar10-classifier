@@ -77,7 +77,7 @@ def train_model():
     # Step 8: Extended evaluation (Confusion Matrix & Classification Report)
     evaluate_model(model, x_test, y_test)
 
-    # Step 9: Save the trained model
+    # Step 9: save the trained model
     model.save('cifar10_cnn_model.h5')
     print("Model training complete and saved.")
 
