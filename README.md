@@ -22,7 +22,7 @@ Our solution stands out due to its problem-solving orientation, handling common 
 	•	Error-Free Execution: Handles deprecation warnings and ensures a smooth training and evaluation process.
 	•	Dockerized Application: The project has been containerized using Docker for easier deployment and reproducibility.
 
-**Project Structure*
+**Project Structure**
 
 CIFAR10_CNN_Project/
 │
