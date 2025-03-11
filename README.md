@@ -77,7 +77,13 @@ pip install -r requirements.txt
 
 python main.py
 
-5. Docker Setup:
+5. Start the FastAPI Server (for API inference):
+
+to run the FastAPI server for model inference, use the following command:
+
+uvicorn src.api.app:app --reload --host 127.0.0.1 --port 8000
+
+6. Docker Setup:
 
 (Optional for Local Deployment, Mandatory for Cloud Integration)
 	•	Build the Docker image:
